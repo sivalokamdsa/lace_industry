@@ -32,7 +32,8 @@ header {
   background: var(--deep-navy);
   color: white;
   padding: 1.5rem 0;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   top: 0;
   z-index: 100;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -71,6 +72,8 @@ nav a:hover {
   color: white;
   padding: 6rem 2rem;
   text-align: center;
+  /* margin-top: 130px; */
+  margin-top: 80px;
 }
 
 .hero-content {
@@ -279,7 +282,9 @@ footer p {
   nav a {
     margin-left: 1rem;
   }
-
+  .hero {
+    margin-top: 130px;
+  }
   .hero h1 {
     font-size: 2rem;
   }
@@ -300,6 +305,10 @@ footer p {
 @media (max-width: 480px) {
   .header-container {
     padding: 0 1rem;
+  }
+
+  .hero {
+    margin-top: 85px;
   }
 
   nav {
